@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message Student {
+  string id = 1;
+  string name = 2;
+  float age = 3;
+  float score = 4;
+}
+
+message Students {
+  repeated Student students = 1;
+}

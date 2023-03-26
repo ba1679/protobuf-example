@@ -1,0 +1,17 @@
+{
+  "name": "protoc-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "students.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:pb": "protoc --js_out=import_style=commonjs,binary:. students.proto"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-protobuf": "^3.21.2",
+    "protoc-gen-js": "^3.21.2"
+  }
+}
